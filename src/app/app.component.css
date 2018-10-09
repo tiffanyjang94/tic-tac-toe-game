@@ -1,0 +1,8 @@
+.gameBlock{
+    height: 50px;
+    width: 50px;
+    font-size: 36px;
+    font-family: Arial;
+    border: 1px solid black;
+    text-align: center;
+}
