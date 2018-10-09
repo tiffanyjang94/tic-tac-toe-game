@@ -59,8 +59,10 @@ export class AppComponent {
       this.leftDiagContainsOnlyPlayer() ||
       this.rightDiagContainsOnlyPlayer()
     ){
+      console.log('a player has won!!!');
       return true;
     }
+    console.log('a player has yet to win');
     return false;
   }
 
